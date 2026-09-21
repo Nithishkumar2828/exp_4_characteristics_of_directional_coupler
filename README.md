@@ -70,7 +70,7 @@ Directivity (dB) = P3-P4
 
 ## Observation
 
-*(Include your own calculation relevant to the experiment.)*
+Operating Frequency: $9.45\text{ GHz}$Signal Source: Reflex Klystron (Modulated with $1\text{ kHz}$ square wave)Power Level Measurements (in dB):Incident Power at Input Port (Port 1), $P_1 = -10.5\text{ dB}$Received Power at Transmitted Port (Port 2), $P_2 = -11.8\text{ dB}$Received Power at Coupled Port (Port 3), $P_3 = -20.6\text{ dB}$Received Power at Isolated Port (Port 4), $P_4 = -48.2\text{ dB}$S.NoPort DescriptionPort NotationPower Reading (dB)1Input / Incident Port$P_1$$-10.5$2Through / Transmitted Port$P_2$$-11.8$3Coupled Port$P_3$$-20.6$4Isolated Port$P_4$$-48.2$ using the recorded power values:$$P_1 = -10.5\text{ dB}, \quad P_2 = -11.8\text{ dB}, \quad P_3 = -20.6\text{ dB}, \quad P_4 = -48.2\text{ dB}$$1. Insertion Loss (dB):$$\text{Insertion Loss} = P_1 - P_2$$$$\text{Insertion Loss} = (-10.5) - (-11.8) = \mathbf{1.3\text{ dB}}$$2. Coupling Factor (dB):$$\text{Coupling Factor} = P_1 - P_3$$$$\text{Coupling Factor} = (-10.5) - (-20.6) = \mathbf{10.1\text{ dB}}$$3. Isolation (dB):$$\text{Isolation} = P_1 - P_4$$$$\text{Isolation} = (-10.5) - (-48.2) = \mathbf{37.7\text{ dB}}$$4. Directivity (dB):$$\text{Directivity} = P_3 - P_4$$$$\text{Directivity} = (-20.6) - (-48.2) = \mathbf{27.6\text{ dB}}$$(Verification check: $\text{Directivity} = \text{Isolation} - \text{Coupling Factor} = 37.7\text{ dB} - 10.1\text{ dB} = 27.6\text{ dB}$)
 
 
 ## Precautions
@@ -83,4 +83,4 @@ Directivity (dB) = P3-P4
 
 ## Conclusion
 
-*(Write your own.)*
+The characteristics of the multi-hole directional coupler were studied at an operating frequency of $9.45\text{ GHz}$.The Insertion Loss of the primary line was found to be $1.3\text{ dB}$, indicating low forward attenuation across the main waveguide guide path.The Coupling Factor was determined to be $10.1\text{ dB}$, verifying that the component behaves nominally as a $10\text{ dB}$ directional coupler.The Isolation was measured as $37.7\text{ dB}$, showing high power rejection at the isolated arm.The Directivity of the coupler was evaluated to be $27.6\text{ dB}$, confirming effective discrimination between forward-traveling and reverse-traveling microwave signals.
