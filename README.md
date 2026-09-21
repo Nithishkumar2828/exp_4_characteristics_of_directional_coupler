@@ -70,88 +70,27 @@ Directivity (dB) = P3-P4
 
 ## Observation
 
-## Experimental Results
-
-**Operating Frequency:** $9.45\text{ GHz}$  
-**Signal Source:** Reflex Klystron (Modulated with $1\text{ kHz}$ square wave)
-
-### Power Level Measurements
-
-The measured power levels at the four ports are:
-
-| S.No | Port Description | Port Notation | Power Reading (dB) |
-|---:|---|:---:|---:|
-| 1 | Input / Incident Port | $P_1$ | $-10.5$ |
-| 2 | Through / Transmitted Port | $P_2$ | $-11.8$ |
-| 3 | Coupled Port | $P_3$ | $-20.6$ |
-| 4 | Isolated Port | $P_4$ | $-48.2$ |
-
-Using the recorded power values:
+Operating Frequency: $9.45\text{ GHz}$
+Signal Source: Reflex Klystron (Modulated with $1\text{ kHz}$ square wave)
 
 $$
-P_1 = -10.5\text{ dB}, \quad
-P_2 = -11.8\text{ dB}, \quad
-P_3 = -20.6\text{ dB}, \quad
-P_4 = -48.2\text{ dB}
-$$
-
-### 1. Insertion Loss
-
-$$
-\text{Insertion Loss} = P_1 - P_2
+P_1=-10.5,\quad P_2=-11.8,\quad P_3=-20.6,\quad P_4=-48.2\text{ dB}
 $$
 
 $$
-\text{Insertion Loss} = (-10.5) - (-11.8)
-= \mathbf{1.3\text{ dB}}
-$$
-
-### 2. Coupling Factor
-
-$$
-\text{Coupling Factor} = P_1 - P_3
+\text{Insertion Loss}=P_1-P_2=\mathbf{1.3\text{ dB}}
 $$
 
 $$
-\text{Coupling Factor} = (-10.5) - (-20.6)
-= \mathbf{10.1\text{ dB}}
-$$
-
-### 3. Isolation
-
-$$
-\text{Isolation} = P_1 - P_4
+\text{Coupling Factor}=P_1-P_3=\mathbf{10.1\text{ dB}}
 $$
 
 $$
-\text{Isolation} = (-10.5) - (-48.2)
-= \mathbf{37.7\text{ dB}}
-$$
-
-### 4. Directivity
-
-$$
-\text{Directivity} = P_3 - P_4
+\text{Isolation}=P_1-P_4=\mathbf{37.7\text{ dB}}
 $$
 
 $$
-\text{Directivity} = (-20.6) - (-48.2)
-= \mathbf{27.6\text{ dB}}
-$$
-
-### Verification
-
-The directivity can be verified using:
-
-$$
-\text{Directivity}
-=
-\text{Isolation} - \text{Coupling Factor}
-$$
-
-$$
-= 37.7\text{ dB} - 10.1\text{ dB}
-= \mathbf{27.6\text{ dB}}
+\text{Directivity}=P_3-P_4=\mathbf{27.6\text{ dB}}
 $$
 
 ## Precautions
